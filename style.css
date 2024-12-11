@@ -1,0 +1,64 @@
+body, * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Golos Text", sans-serif;
+}
+
+.container {
+    border: 1px solid black;
+    width: 1112px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #9C7E6E;
+    padding: 25px 0;
+}
+
+header .container> *, header ul li, header .actions span{
+    display: inline-block;
+}
+
+header .logo {
+    margin-right: 30px;
+}
+
+header nav {
+    vertical-align: 24px;
+}
+
+header nav li {
+    margin-right: 34px;
+}
+
+header nav li:last-child {
+    margin-right: 0;
+}
+
+header nav a {
+    text-decoration: none;
+    color: white;
+}
+
+header .actions {
+    margin-left: 320px;
+    vertical-align: 14px;
+}
+
+header .actions button {
+    background-color: transparent;
+    border: none;
+    margin-right: 42px;
+}
+
+header .actions span {
+    background-color: white;
+    border-radius: 50%;
+    width: 22px;
+    height: 22px;
+    color: #9C7E6E;
+    text-align: center;
+    vertical-align: 27px;
+    margin-left: -10px;
+}
